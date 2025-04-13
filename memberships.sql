@@ -1,0 +1,15 @@
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (1, 'Basic', 1);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (2, 'Standard', 6);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (3, 'Premium', 12);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (4, 'Family', 12);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (5, 'Student', 6);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (6, 'Senior', 12);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (7, 'Corporate', 12);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (8, 'Trial', 1);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (9, 'Lifetime', 0);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (10, 'Flexi', 3);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (11, 'Gold', 24);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (12, 'Silver', 18);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (13, 'Bronze', 9);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (14, 'Weekend Pass', 1);
+INSERT INTO memberships (membership_id, membership_type, duration) VALUES (15, 'Monthly Pass', 1);

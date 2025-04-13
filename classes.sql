@@ -1,0 +1,15 @@
+INSERT INTO classes (class_id, class_name, capacity) VALUES (1, 'Power Pump', 24);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (2, 'Cardio Blast', 14);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (3, 'Strength & Sculpt', 13);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (4, 'HIIT Hustle', 24);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (5, 'Core Crusher', 10);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (6, 'Fit Fusion', 14);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (7, 'Total Body Burn', 28);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (8, 'Flex & Flow', 13);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (9, 'Bootcamp Challenge', 14);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (10, 'Endurance Express', 15);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (11, 'Zumba Jam', 15);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (12, 'Circuit Smash', 27);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (13, 'Yoga Strength', 14);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (14, 'Dance Cardio Party', 12);
+INSERT INTO classes (class_id, class_name, capacity) VALUES (15, 'Athletic Conditioning', 16);

@@ -1,0 +1,15 @@
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (1, 'Lorilyn', 'Boswell', 'Personal Trainer', '103-409-9895', 'lboswell0@tinypic.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (2, 'Bran', 'Curtoys', 'Personal Trainer', '438-829-9910', 'bcurtoys1@delicious.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (3, 'Monroe', 'Siderfin', 'Strength Training Coach', '183-799-5398', 'msiderfin2@github.io');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (4, 'Conchita', 'Desquesnes', 'Functional Fitness Trainer', '795-116-6840', 'cdesquesnes3@hexun.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (5, 'Horatia', 'Eick', 'Functional Fitness Trainer', '359-460-8857', 'heick4@unesco.org');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (6, 'Kermy', 'Baldung', 'Yoga Instructor', '304-668-3498', 'kbaldung5@slideshare.net');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (7, 'Gill', 'Boulger', 'Yoga Instructor', '560-285-6236', 'gboulger6@constantcontact.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (8, 'Erena', 'Gunthorp', 'Pilates Instructor', '527-473-5985', 'egunthorp7@skype.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (9, 'Idalina', 'Boldry', 'Sports Nutrition Coach', '996-968-2015', 'iboldry8@vk.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (10, 'Katine', 'Menhenitt', 'CrossFit Trainer', '985-948-9726', 'kmenhenitt9@google.co.uk');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (11, 'Maximo', 'Holson', 'Senior Fitness Specialist', '125-784-2785', 'mholsona@theguardian.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (12, 'Adi', 'Dakers', 'Martial Arts Trainer', '783-373-3755', 'adakersb@amazon.co.uk');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (13, 'Gaby', 'Feak', 'Group Fitness Instructor', '918-929-9170', 'gfeakc@howstuffworks.com');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (14, 'Melissa', 'Wilcox', 'Cardio Fitness Instructor', '879-523-6091', 'mwilcoxd@de.vu');
+INSERT INTO trainers (trainer_id, first_name, last_name, specialization, phone_number, email) VALUES (15, 'Godfry', 'Eskrigg', 'Functional Fitness Trainer', '186-785-7823', 'geskrigge@gizmodo.com');
