@@ -81,3 +81,7 @@ CREATE TABLE TrainerSalaryHistory (
     FOREIGN KEY (trainer_id) REFERENCES Trainers(trainer_id)
 );
 
+DROP TABLE Clients CASCADE;
+DROP TABLE Trainers CASCADE;
+DROP TABLE Memberships CASCADE;
+DROP TABLE Classes CASCADE;
