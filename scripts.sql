@@ -1,3 +1,4 @@
+'Выводит имя, фамилию и дату записи клиентов, записанных на конкретное занятие.'
 SELECT
     c.FirstName,
     c.LastName,
@@ -14,6 +15,7 @@ ORDER BY
     ce.EnrollmentDate;
 
 
+'Находит тренера с самой высокой текущей зарплатой (с учетом истории зарплат)'    
 SELECT
     t.FirstName,
     t.LastName,
@@ -25,6 +27,7 @@ ORDER BY CurrentSalary DESC
 LIMIT 1;
 
 
+'Показывает расписание занятий определенного тренера.'
 SELECT
     cl.ClassName,
     cs.DayOfWeek,
@@ -38,6 +41,7 @@ WHERE
     cs.TrainerID = 3;
 
 
+'Показывает действующие абонементы на определенную дату и их стоимость.'
 SELECT
     m.MembershipType,
     mph.Price,
@@ -48,11 +52,12 @@ FROM
 JOIN
     MembershipPriceHistory mph ON m.MembershipID = mph.MembershipID
 WHERE
-    2025-01-01 BETWEEN mph.StartDate AND mph.EndDate  -- Например, '2024-07-15'
+    2025-01-01 BETWEEN mph.StartDate AND mph.EndDate
 ORDER BY
     m.MembershipType;
 
 
+'Выводит имена и фамилии клиентов, имеющих абонемент конкретного типа.'
 SELECT
     c.FirstName,
     c.LastName
@@ -66,6 +71,7 @@ WHERE
     m.MembershipType = 5;
 
 
+'Вычисляет среднюю продолжительность занятий, которые ведет каждый тренер.'
 SELECT
     t.FirstName,
     t.LastName,
@@ -78,6 +84,7 @@ GROUP BY
     t.TrainerID, t.FirstName, t.LastName;
 
 
+'Находит клиентов, посетивших больше всего занятий, и ранжирует их.'
 WITH ClientClassCounts AS (
     SELECT
         ce.ClientID,
@@ -99,6 +106,7 @@ JOIN
 ORDER BY RankByClassCount, ccc.ClassCount DESC;
 
 
+'Показывает информацию об активных абонементах клиента.'
 SELECT
     cm.ClientMembershipID,
     m.MembershipType,
@@ -114,6 +122,7 @@ WHERE
     AND cm.EndDate >= CURDATE();
 
 
+'Выводит список клиентов, которые когда-либо были записаны на занятия.'
 SELECT
     c.FirstName,
     c.LastName
@@ -127,6 +136,7 @@ WHERE
     );
 
 
+'Выводит информацию о тренерах, чья текущая зарплата превышает среднюю зарплату всех тренеров.'
 SELECT
     t.FirstName,
     t.LastName,
